@@ -79,7 +79,7 @@ const Upload = () => {
                         console.log(e);
                         setImage(e.target.files[0]);
                     }} />
-                <button onClick={uploadPost} className="btns"> Submit Post</button>
+                <button onClick={uploadPost} className="btns"> Upload Image</button>
 
             </div>
         </div>
